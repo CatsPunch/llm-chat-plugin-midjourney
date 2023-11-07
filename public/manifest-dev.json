@@ -1,0 +1,33 @@
+{
+  "api": [
+    {
+      "name": "showMJ",
+      "description": "当用户输入 /mj 时，唤起 MJ 插件面板。你需要将 /mj 后的用户输入记录到 rawInput 字段，不需要进行翻译。",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "rawInput": {
+            "type": "string",
+            "description": "用户输入 /mj 后的原始描述"
+          }
+        }
+      }
+    }
+  ],
+  "author": "LobeHub",
+  "createAt": "2023-11-06",
+  "identifier": "midjourney-dev",
+  "meta": {
+    "avatar": "https://cdn.discordapp.com/icons/662267976984297473/39128f6c9fc33f4c95a27d4c601ad7db.webp",
+    "tags": ["midjourney", "draw"],
+    "title": "Midjourney",
+    "description": "midjourney plugin"
+  },
+  "type": "standalone",
+  "ui": {
+    "url": "http://localhost:5173/",
+    "height": 350,
+    "width": 600
+  },
+  "version": "1"
+}

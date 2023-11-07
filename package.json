@@ -1,0 +1,51 @@
+{
+  "name": "@lobehub/chat-plugin-midjourney",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/lobehub/chat-plugin-midjourney",
+  "repository": "https://github.com/lobehub/chat-plugin-midjourney.git",
+  "type": "module",
+  "scripts": {
+    "build": "tsc && vite build",
+    "ci": "npm run lint && npm run type-check",
+    "dev": "vite",
+    "lint": "eslint \"{src,api,docs}/**/*.{js,jsx,ts,tsx}\" --fix",
+    "preview": "vite preview",
+    "release": "semantic-release",
+    "test": "vitest --passWithNoTests",
+    "test:coverage": "vitest --coverage  --passWithNoTests",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@lobehub/chat-plugin-sdk": "^1.22.0",
+    "@lobehub/ui": "^1.108.2",
+    "antd": "^5",
+    "antd-style": "^3.5.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-layout-kit": "^1",
+    "swr": "^2.2.4",
+    "zustand": "^4",
+    "zustand-utils": "^1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17",
+    "@lobehub/lint": "latest",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "@vitest/coverage-v8": "latest",
+    "commitlint": "^17",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "husky": "^8",
+    "lint-staged": "^15",
+    "prettier": "^3.0.3",
+    "semantic-release": "^21",
+    "stylelint": "^15",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vitest": "latest"
+  }
+}
