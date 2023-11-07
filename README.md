@@ -4,7 +4,7 @@
 
 <img height="120" src="https://registry.npmmirror.com/@lobehub/assets-emoji/1.3.0/files/assets/puzzle-piece.webp">
 <img height="120" src="https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg">
-<img height="120" src="https://cdn.discordapp.com/icons/662267976984297473/39128f6c9fc33f4c95a27d4c601ad7db.webp" style="border-radius: 24px">
+<img height="120" src="https://github-production-user-asset-6210df.s3.amazonaws.com/28616219/281042486-5e3b9283-9f47-4201-b468-1cb8ef86b3d5.png">
 
 <h1>Midjourney<br/><sup>LobeChat Plugin</sup></h1>
 
